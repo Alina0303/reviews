@@ -39,7 +39,7 @@ const App = () => {
         <h2 className="author">{name}</h2>
         <h3 className="job">{job}</h3>
         <p className="info">{text}</p>
-      </section>
+      
       <div className="btn-container">
         <button onClick={prevNumber} className="prev-btn">
           <HiOutlineArrowSmLeft />
@@ -54,7 +54,9 @@ const App = () => {
       >
         surprise me
       </button>
+        </section>
     </main>
   );
 };
 export default App;
+
